@@ -19,14 +19,15 @@ awk -F, 'BEGIN{
 				minPrice = $3
 			};
 			if ($1 == "Buy") {
-				totalBuy += $2;
+				totalBuy += $2/1000000;
 			} else {
-				totalSell += $2;
+				totalSell += $2/1000000;
 			}
 		}
 		END{
 			print FILENAME","volume","turnover","turnover/volume","startPrice","$3","maxPrice","minPrice","totalBuy-totalSell
-			}' clean_BTCUSD2019-11-26.csv | 
+			}' clean_$1.csv | 
 
-sed -e s/clean_BTCUSD//g -e s/.csv//g > ./processed_BTCUSD2019-11-26.csv
+sed -e s/clean_BTCUSD//g -e s/.csv//g > processed_$1.csv
+
 
