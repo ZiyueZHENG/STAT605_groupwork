@@ -1,3 +1,6 @@
+Our raw data is from the kaggle link below:
+https://www.kaggle.com/tonyyang0504/bybit-btcusd-trade-data
+
 STEP1: Getting and clearning the data
 All the data is in the package "archive.zip"
 1. Using "unzip archive.zip -d raw_data/" to get the csv files(approximately 30GB in total).
