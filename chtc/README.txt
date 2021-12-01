@@ -19,4 +19,4 @@ After all jobs done:
 Data description:
 all_process.csv produced by merge.sh contains the following columns:
 
-Date | Day of the week | Volume(Bitcon) | Turnover(USD) | Avg. Price(USD) | Opening Price(USD) | Closing Price(USD) | Max Price(USD) | Min Price(USD) | Net Inflow(Bitcon)
+Date | Week | Volume(Bitcon) | Turnover(USD) | Avg. Price(USD) | Opening Price(USD) | Closing Price(USD) | Max Price(USD) | Min Price(USD) | Net Inflow(Bitcon)
