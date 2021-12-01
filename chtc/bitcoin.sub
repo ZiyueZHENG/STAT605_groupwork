@@ -1,0 +1,18 @@
+universe = vanilla
+log = log/$(filename).log
+error = error/$(filename).err
+output = output/$(filename).out
+
+executable = ./process.sh
+
+arguments = $(filename).csv
+
+should_transfer_files = YES
+when_to_transfer_output = ON_EXIT
+transfer_input_files = ./data/$(filename).csv
+
+request_cpus = 1
+request_memory = 1GB
+request_disk = 500MB
+
+queue filename from filenames.txt
