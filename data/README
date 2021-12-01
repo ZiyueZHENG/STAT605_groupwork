@@ -1,1 +1,6 @@
 This is the processed data. The cleaning and processing steps are in the chtc folder.
+
+--------------------------------------------------------------------
+Data description:
+
+Date | Week | Volume(Bitcon) | Turnover(USD) | Avg. Price(USD) | Opening Price(USD) | Closing Price(USD) | Max Price(USD) | Min Price(USD) | Net Inflow(Bitcon)
