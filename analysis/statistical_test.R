@@ -28,7 +28,7 @@ for(i in 1:6){
     tt = append(tt,paste(i,j,p1,p2))
   }
 }
-print(tt)
+print(tt)# Return between 6&7,3&7 is significant under 95% level.
 
 # Tuckey test
 summary(fm1 <- aov(return ~ Week, data = data1))
